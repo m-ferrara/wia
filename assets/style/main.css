@@ -1,0 +1,17 @@
+body {
+	/*margin: 0px;*/
+	background: url('../images/drops-alt.jpg');
+	background-size: 85%;
+	background-repeat: repeat;
+	background-position: top center;
+	width:960px; 
+	margin:auto;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #4679BD;
+}

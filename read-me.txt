@@ -1,0 +1,18 @@
+/* - READ ME :   Institute on the Environment Infographic v.2.0.
+ 
+ * - AUTHOR:     Matthew Ferrara (ferr988@gmail.com)
+ * 
+ 
+ * - ABSTRACT:   Outline of systems-components of Application ("App"), Explain Set-Up.
+*/
+ 
+Back-End Services:
+- - The back end services are programmed in PHP, using the CodeIgniter v2.x framework 
++ + + (https://ellislab.com/codeigniter).  
+- - An API listing will be made available shortly after public beta release of the app.
+- - Data Payloads are transferred in the JSON format.
+- - Services are architected following a RESTful pattern.
+
+Front-End Architecture:
+- - Backbone.js (http://backbonejs.org/) assists in mirroring the server side data schemas 
++ + + within the front-end, providing for user interface CRUD.
