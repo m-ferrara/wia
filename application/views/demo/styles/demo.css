@@ -1,0 +1,28 @@
+
+.color-primary-0 { color: #0C589C }	/* Main Primary color */
+.color-primary-1 { color: #1674C8 }
+.color-primary-2 { color: #0E67B6 }
+.color-primary-3 { color: #114D83 }
+.color-primary-4 { color: #13436F }
+
+html { padding: 0; margin: 0; }
+
+body {
+	min-width: 742px;
+	min-height: 640px;
+	width: 100%;
+	height: 100%;
+	background: #0C589C;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	min-width: 742px;
+	max-width: 1140px;
+	min-height: 640px;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}

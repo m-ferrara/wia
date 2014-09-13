@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<textarea id="output" rows="500" cols="100"></textarea>
+		
+		
+		
+		<script src="<?php echo base_url().'assets/js/code-gen/jquery.js'; ?>"></script>
+		<script src="<?php echo base_url().'assets/js/code-gen/Controllers-Generator.js'; ?>"></script>
+		<script>
+			
+			var j = jQuery.noConflict();
+			var output = ione.BUILD_CRUD();
+			j("#output").val( output );
+			
+		</script>
+	</body>
+</html>
